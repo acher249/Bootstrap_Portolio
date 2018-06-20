@@ -2,11 +2,6 @@
     margin-top: 60px;
 }
 
-.navbar{
-    height:100px;
-}
-
-
 .navbar-brand {
     background-color: turquoise;
     width:200px;
@@ -21,6 +16,8 @@
     color:black;
 }
 
-.navbar-toggler-icon {
-    color:black;
+.row {
+    margin-top: 40px;
 }
+
+
