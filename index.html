@@ -15,26 +15,30 @@
 
 <body>
 
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Adam Chernick</a>
-    <div class="collapse navbar-collapse" id=""></div>
-    <ul class="float-right navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarNav" aria-controls="navBarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navBarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
             </li>
         </ul>
+    </div>
   </nav>
 
   <!-- Main Body goes in Container -->
-  <div class="container-fluid"> 
+  <div class="container"> 
     <div class="row">
       <div class="col-lg-3">
         <img class="img img-thumbnail" src="https://media.licdn.com/dms/image/C5103AQFHa8dwHzV3Iw/profile-displayphoto-shrink_200_200/0?e=1534982400&v=beta&t=2andD8CcNVaDbQgxUbsEAftFsbWKfPv3culpGm3OdUY">

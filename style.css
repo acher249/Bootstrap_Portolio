@@ -11,14 +11,16 @@
     background-color: turquoise;
     width:200px;
     text-align: center;
-    color: white;
 }
 
-.nav-link:hover {
-    background-color: rgb(238, 238, 238);
+.nav-link {
     color:black;
 }
 
-.white {
-    color:white;
+.nav-link:hover {
+    color:black;
+}
+
+.navbar-toggler-icon {
+    color:black;
 }
