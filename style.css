@@ -4,7 +4,7 @@
 
 .navbar-brand {
     background-color: turquoise;
-    width:240px;
+    width:180px;
     text-align: center;
     margin-left: 20px;
 }
@@ -31,6 +31,10 @@
     left: 22px;
     margin-top: 20px;
     font-family: Ubuntu;
+}
+
+.centerText {
+    text-align: center;
 }
 
 @media (max-width: 576px) {
